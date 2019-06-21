@@ -26,6 +26,8 @@ public:
 	float chargePotential(float x, float y);
 	eField electricField(float x, float y);
 	void addCharge(float x, float y, float q);
+	eField electricFieldDerivative(float x, float y);
+	float conv2loc(float coordV);
 
 private:
 	vector<charge> chargeLocations;
